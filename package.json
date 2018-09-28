@@ -2,7 +2,7 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "homepage": "https://kevnat.github.io/clicker-game/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "gh-pages": "^2.0.0",
     "react": "^16.2.0",
@@ -15,6 +15,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   }
 }
